@@ -1,0 +1,37 @@
+{
+    "name": "clash-of-codes-workshop",
+    "version": "1.0.0",
+    "description": "Custom Celo Composer project.",
+    "private": true,
+    "author": "Celo",
+    "license": "MIT",
+    "scripts": {
+        "hardhat:test": "yarn workspace @clash-of-codes-workshop/hardhat test",
+        "hardhat:test-local": "yarn workspace @clash-of-codes-workshop/hardhat test-local",
+        "hardhat:accounts": "yarn workspace @clash-of-codes-workshop/hardhat accounts",
+        "hardhat:devchain": "yarn workspace @clash-of-codes-workshop/hardhat devchain",
+        "hardhat:deploy": "yarn workspace @clash-of-codes-workshop/hardhat deploy",
+        "hardhat:deploy-reset-watch": "yarn workspace @clash-of-codes-workshop/hardhat deploy-reset-watch",
+        "hardhat:watch": "yarn workspace @clash-of-codes-workshop/hardhat watch",
+        "hardhat:fork-mainnet": "yarn workspace @clash-of-codes-workshop/hardhat fork-mainnet",
+        "react-app:dev": "yarn workspace @clash-of-codes-workshop/react-app dev",
+        "react-app:build": "yarn workspace @clash-of-codes-workshop/react-app build",
+        "react-app:start": "yarn workspace @clash-of-codes-workshop/react-app start",
+        "react-app:lint": "yarn workspace @clash-of-codes-workshop/react-app lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/celo-org/celo-composer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/celo-org/celo-composer/issues"
+    },
+    "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "celo-composer",
+        "celo"
+    ]
+}
