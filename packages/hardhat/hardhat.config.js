@@ -1,4 +1,3 @@
-require("@nomiclabs/hardhat-waffle");
 require("dotenv").config({ path: ".env" });
 require("hardhat-deploy");
 const { task } = require("hardhat/config");
